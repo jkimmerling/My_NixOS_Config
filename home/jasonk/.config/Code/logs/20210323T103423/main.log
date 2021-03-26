@@ -1,0 +1,8 @@
+[2021-03-23 10:34:23.432] [main] [info] update#setState idle
+[2021-03-23 10:34:23.540] [main] [error] Error: Unable to read file '/home/jasonk/.vscode/argv.json' (Error: Unable to resolve non-existing file '/home/jasonk/.vscode/argv.json')
+    at s.doReadAsFileStream (/nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/code/electron-main/main.js:28:20413)
+    at async s.readFile (/nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/code/electron-main/main.js:28:19535)
+    at async ut.afterWindowOpen (/nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/code/electron-main/main.js:56:68655)
+[2021-03-23 10:34:24.382] [main] [error] file: Refused to load resource /nix/store/rjrp4j235b1q70ai5g023s7638d5hldd-vscode-1.51.1/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff from file: protocol (original URL: file:///nix/store/rjrp4j235b1q70ai5g023s7638d5hldd-vscode-1.51.1/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff)
+[2021-03-23 10:34:53.449] [main] [info] update#setState checking for updates
+[2021-03-23 10:34:53.580] [main] [info] update#setState available for download

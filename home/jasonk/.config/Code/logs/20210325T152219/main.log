@@ -1,0 +1,7 @@
+[2021-03-25 15:22:19.495] [main] [info] update#setState idle
+[2021-03-25 15:22:19.569] [main] [error] Error: Unable to read file '/home/jasonk/.vscode/argv.json' (Error: Unable to resolve non-existing file '/home/jasonk/.vscode/argv.json')
+    at s.doReadAsFileStream (/nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/code/electron-main/main.js:28:20413)
+    at async s.readFile (/nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/code/electron-main/main.js:28:19535)
+    at async ut.afterWindowOpen (/nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/code/electron-main/main.js:56:68655)
+[2021-03-25 15:22:49.524] [main] [info] update#setState checking for updates
+[2021-03-25 15:22:49.645] [main] [info] update#setState available for download

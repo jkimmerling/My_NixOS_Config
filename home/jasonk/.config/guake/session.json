@@ -1,0 +1,20 @@
+{
+    "schema_version": 2,
+    "timestamp": 1616352162,
+    "workspace": {
+        "0": [
+            [
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/jasonk"
+                        }
+                    ],
+                    "label": "fish /home/jasonk",
+                    "custom_label_set": false
+                }
+            ]
+        ]
+    }
+}

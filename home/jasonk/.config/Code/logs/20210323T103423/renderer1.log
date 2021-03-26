@@ -1,0 +1,73 @@
+[2021-03-23 10:34:26.014] [renderer1] [error] EROFS: read-only file system, open '/home/jasonk/.vscode/extensions/bbenoist.Nix/package.json': Error: EROFS: read-only file system, open '/home/jasonk/.vscode/extensions/bbenoist.Nix/package.json'
+[2021-03-23 11:03:21.176] [renderer1] [error] Unknown (FileSystemError): Error: Failed to move 'parse_functions.ipynb' to the trash
+    at Object.u [as createFileSystemProviderError] (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:622:10353)
+    at T.toFileSystemProviderError (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:48308)
+    at T.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:44622)
+    at async s.del (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:36177)
+    at async l.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:95931)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:29327)
+    at async n.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:31440)
+    at async o._performFileEdits (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:33270)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:32812)
+    at async r.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:35282)
+    at async file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2007:17243
+[2021-03-23 11:03:21.191] [renderer1] [error] Error: Failed to move 'parse_functions.ipynb' to the trash: Unknown (FileSystemError): Error: Failed to move 'parse_functions.ipynb' to the trash
+    at Object.u [as createFileSystemProviderError] (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:622:10353)
+    at T.toFileSystemProviderError (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:48308)
+    at T.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:44622)
+    at async s.del (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:36177)
+    at async l.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:95931)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:29327)
+    at async n.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:31440)
+    at async o._performFileEdits (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:33270)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:32812)
+    at async r.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:35282)
+    at async file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2007:17243
+[2021-03-23 11:03:32.167] [renderer1] [error] Unknown (FileSystemError): Error: Failed to move '.ipynb_checkpoints' to the trash
+    at Object.u [as createFileSystemProviderError] (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:622:10353)
+    at T.toFileSystemProviderError (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:48308)
+    at T.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:44622)
+    at async s.del (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:36177)
+    at async l.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:95931)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:29327)
+    at async n.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:31440)
+    at async o._performFileEdits (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:33270)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:32812)
+    at async r.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:35282)
+    at async file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2007:17243
+[2021-03-23 11:03:32.191] [renderer1] [error] Error: Failed to move '.ipynb_checkpoints' to the trash: Unknown (FileSystemError): Error: Failed to move '.ipynb_checkpoints' to the trash
+    at Object.u [as createFileSystemProviderError] (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:622:10353)
+    at T.toFileSystemProviderError (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:48308)
+    at T.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:44622)
+    at async s.del (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:36177)
+    at async l.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:95931)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:29327)
+    at async n.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:31440)
+    at async o._performFileEdits (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:33270)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:32812)
+    at async r.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:35282)
+    at async file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2007:17243
+[2021-03-23 11:03:39.444] [renderer1] [error] Unknown (FileSystemError): Error: Failed to move 'Untitled.ipynb' to the trash
+    at Object.u [as createFileSystemProviderError] (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:622:10353)
+    at T.toFileSystemProviderError (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:48308)
+    at T.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:44622)
+    at async s.del (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:36177)
+    at async l.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:95931)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:29327)
+    at async n.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:31440)
+    at async o._performFileEdits (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:33270)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:32812)
+    at async r.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:35282)
+    at async file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2007:17243
+[2021-03-23 11:03:39.450] [renderer1] [error] Error: Failed to move 'Untitled.ipynb' to the trash: Unknown (FileSystemError): Error: Failed to move 'Untitled.ipynb' to the trash
+    at Object.u [as createFileSystemProviderError] (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:622:10353)
+    at T.toFileSystemProviderError (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:48308)
+    at T.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:44622)
+    at async s.del (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:626:36177)
+    at async l.delete (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:95931)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:29327)
+    at async n.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:31440)
+    at async o._performFileEdits (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:33270)
+    at async o.perform (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:32812)
+    at async r.apply (file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2218:35282)
+    at async file:///nix/store/c1g6qglnvs7dik66fg95bapidn1jhmgj-vscode-1.54.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2007:17243

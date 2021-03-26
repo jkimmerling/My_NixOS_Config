@@ -1,0 +1,11 @@
+{
+    "editor.largeFileOptimizations": false,
+    "editor.fontSize": 20,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "explorer.confirmDelete": false
+}

@@ -1,0 +1,26 @@
+Error 2021-03-23 08:38:05: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/home/jasonk/.config/Code/User/settings.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/jasonk/.config/Code/User/settings.json')
+	at _handleError (/nix/store/rjrp4j235b1q70ai5g023s7638d5hldd-vscode-1.51.1/lib/vscode/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:730:838)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async m.readFile (/home/jasonk/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/out/client/extension.js:49:864350)
+	at async g.fixSettingsFile (/home/jasonk/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/out/client/extension.js:47:290713)
+	at async Promise.all (index 0)
+	at async g.updateSettings (/home/jasonk/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/out/client/extension.js:47:292433)] {
+  code: 'FileNotFound',
+  name: 'EntryNotFound (FileSystemError)'
+}
+Error 2021-03-23 08:38:05: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/home/jasonk/CollegeProjects/.vscode/settings.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/jasonk/CollegeProjects/.vscode/settings.json')
+	at _handleError (/nix/store/rjrp4j235b1q70ai5g023s7638d5hldd-vscode-1.51.1/lib/vscode/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:730:838)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async m.readFile (/home/jasonk/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/out/client/extension.js:49:864350)
+	at async g.fixSettingsFile (/home/jasonk/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/out/client/extension.js:47:290713)
+	at async Promise.all (index 1)
+	at async g.updateSettings (/home/jasonk/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/out/client/extension.js:47:292433)] {
+  code: 'FileNotFound',
+  name: 'EntryNotFound (FileSystemError)'
+}
+> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py pip list
+> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py pip list

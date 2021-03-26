@@ -1,0 +1,7 @@
+[2021-03-23 08:37:04.430] [main] [info] update#setState idle
+[2021-03-23 08:37:04.587] [main] [error] Error: Unable to read file '/home/jasonk/.vscode/argv.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/jasonk/.vscode/argv.json')
+    at S.doReadAsFileStream (/nix/store/rjrp4j235b1q70ai5g023s7638d5hldd-vscode-1.51.1/lib/vscode/resources/app/out/vs/code/electron-main/main.js:314:7)
+    at async S.readFile (/nix/store/rjrp4j235b1q70ai5g023s7638d5hldd-vscode-1.51.1/lib/vscode/resources/app/out/vs/code/electron-main/main.js:313:129)
+    at async Pe.afterWindowOpen (/nix/store/rjrp4j235b1q70ai5g023s7638d5hldd-vscode-1.51.1/lib/vscode/resources/app/out/vs/code/electron-main/main.js:632:225)
+[2021-03-23 08:37:34.439] [main] [info] update#setState checking for updates
+[2021-03-23 08:37:34.553] [main] [info] update#setState available for download

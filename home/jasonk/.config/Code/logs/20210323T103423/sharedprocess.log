@@ -1,0 +1,17 @@
+[2021-03-23 10:34:25.087] [sharedprocess] [info] Deleted from disk ms-python.python /home/jasonk/.vscode/extensions/ms-python.python
+[2021-03-23 10:34:27.120] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-03-23 10:34:27.120] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-03-23 10:34:35.535] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter undefined
+[2021-03-23 10:34:36.088] [sharedprocess] [info] Downloaded extension: ms-python.python undefined
+[2021-03-23 10:34:36.329] [sharedprocess] [info] Extracted extension to /home/jasonk/.vscode/extensions/.ms-toolsai.jupyter-2021.3.619093157: ms-toolsai.jupyter
+[2021-03-23 10:34:36.329] [sharedprocess] [info] Renamed to /home/jasonk/.vscode/extensions/ms-toolsai.jupyter-2021.3.619093157
+[2021-03-23 10:34:36.333] [sharedprocess] [info] Installation completed. ms-toolsai.jupyter
+[2021-03-23 10:34:36.343] [sharedprocess] [info] Extensions installed successfully: ms-toolsai.jupyter
+[2021-03-23 10:34:37.173] [sharedprocess] [info] Extracted extension to /home/jasonk/.vscode/extensions/.ms-python.python-2021.3.658691958: ms-python.python
+[2021-03-23 10:34:37.173] [sharedprocess] [info] Renamed to /home/jasonk/.vscode/extensions/ms-python.python-2021.3.658691958
+[2021-03-23 10:34:37.175] [sharedprocess] [info] Installation completed. ms-python.python
+[2021-03-23 10:34:37.225] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2021-03-23 10:35:04.973] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-03-23 14:50:48.350] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-03-23 14:54:25.309] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-03-23 15:24:19.295] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
