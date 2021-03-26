@@ -5,6 +5,9 @@ let
       bbenoist.Nix
       ms-python.python
       ms-azuretools.vscode-docker
+      ms-python.vscode-pylance
+      mechatroner.rainbow-csv
+      # vscode-xml
     ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
       name = "remote-ssh-edit";
