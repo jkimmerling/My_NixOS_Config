@@ -1,6 +1,13 @@
 { config, lib, pkgs, ... }:
 
 {
+  programs.fish.enable = true;
+
+  users.extraUsers.jasonk = {   
+      
+    shell = pkgs.fish;
+    
+  };
   services = {
     gnome3.gnome-keyring.enable = true;
     upower.enable = true;
@@ -22,10 +29,10 @@
       #layout = "us-custom";
       layout = "us";
 
-      #libinput = {
-      #  enable = true;
-      #  touchpad.disableWhileTyping = true;
-      #};
+      libinput = {
+        enable = true;
+        # touchpad.disableWhileTyping = true;
+      };
 
       serverLayoutSection = ''
         Option "StandbyTime" "0"
@@ -36,6 +43,10 @@
       #displayManager = {
       #  defaultSession = "none+leftwm";
       #};
+      displayManager = {
+        autoLogin.enable = true;
+        autoLogin.user = "jasonk";
+      };
 
       windowManager.leftwm = {
         enable = true;

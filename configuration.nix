@@ -11,6 +11,10 @@
       ./hardware-configuration.nix
       ./machines/current_machine.nix
       ./wm/LeftWM.nix
+      ./development/includes.nix
+      ./nvidia/nvidia-offload.nix
+      #./nvidia/nvidia-sync.nix
+      ./fonts_themes/fonts.nix
       #./locale/locale.nix
       #./xserver/xserver.nix
     ];
@@ -36,7 +40,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.jasonk = {
      isNormalUser = true;
-     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+     extraGroups = [ "wheel" "postgres" ]; # Enable ‘sudo’ for the user.
   };
 
   # List packages installed in system profile. To search, run:
@@ -53,9 +57,37 @@
      fish
      pciutils
      acpi
-     lm_sensors     
+     lm_sensors
+     steam
+     #steam-run
+     neofetch
+     pavucontrol
+     rofi
+     pywal
+     calc
+     networkmanager_dmenu
+     dmenu
+     remmina
+     xfce.thunar xfce.xfconf xfce.tumbler xfce.exo
+     xfce.mousepad
+     zip unzip
+     xwinwrap mpv
+     glances
+     todo-txt-cli
+     cachix
+     python3
+     # for rofi screen shot tool
+     ffcast
+     slop
+     xclip
+     ffmpeg
+     xorg.xwininfo
+     python38Packages.feedparser
+     jq
+#     vscode
   ];
-
+  programs.steam.enable = true;
+  nix.trustedUsers = [ "root" "jasonk" ];
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -71,5 +103,12 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "20.09"; # Did you read the comment?
+
+  nix.autoOptimiseStore = true;
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 7d";
+  };
 
 }
