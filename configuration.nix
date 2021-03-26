@@ -20,8 +20,6 @@
     ];
 
   nixpkgs.config.allowUnfree = true;
-  # networking.hostName = "nixos"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Set your time zone.
   time.timeZone = "America/New_York";
@@ -33,9 +31,6 @@
      font = "Lat2-Terminus16";
      keyMap = "us";
    };
-
-  # Enable touchpad support (enabled default in most desktopManager).
-  # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.jasonk = {
@@ -84,17 +79,9 @@
      xorg.xwininfo
      python38Packages.feedparser
      jq
-#     vscode
   ];
   programs.steam.enable = true;
   nix.trustedUsers = [ "root" "jasonk" ];
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
