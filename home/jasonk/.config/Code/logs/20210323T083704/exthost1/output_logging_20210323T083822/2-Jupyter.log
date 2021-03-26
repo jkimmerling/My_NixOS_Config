@@ -1,9 +1,0 @@
-User belongs to experiment group 'pythonJoinMailingListVar3'
-User belongs to experiment group 'jupyterTest'
-User belongs to experiment group 'pythonFindInterpretercf'
-> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
-> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
-> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
-> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
-> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py pip list
-> /run/current-system/sw/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2021.2.576440691/pythonFiles/pyvsc-run-isolated.py pip list

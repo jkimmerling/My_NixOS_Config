@@ -1,1 +1,0 @@
-[2021-03-24 17:29:56.312] [renderer1] [error] EROFS: read-only file system, open '/home/jasonk/.vscode/extensions/bbenoist.Nix/package.json': Error: EROFS: read-only file system, open '/home/jasonk/.vscode/extensions/bbenoist.Nix/package.json'

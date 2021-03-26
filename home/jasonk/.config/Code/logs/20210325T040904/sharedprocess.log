@@ -1,8 +1,0 @@
-[2021-03-25 04:09:06.797] [sharedprocess] [info] Deleted from disk ms-python.python /home/jasonk/.vscode/extensions/ms-python.python
-[2021-03-25 04:09:08.646] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
-[2021-03-25 04:09:12.725] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter undefined
-[2021-03-25 04:09:13.276] [sharedprocess] [info] Extracted extension to /home/jasonk/.vscode/extensions/.ms-toolsai.jupyter-2021.3.684299474: ms-toolsai.jupyter
-[2021-03-25 04:09:13.277] [sharedprocess] [info] Renamed to /home/jasonk/.vscode/extensions/ms-toolsai.jupyter-2021.3.684299474
-[2021-03-25 04:09:13.279] [sharedprocess] [info] Installation completed. ms-toolsai.jupyter
-[2021-03-25 04:09:13.293] [sharedprocess] [info] Extensions installed successfully: ms-toolsai.jupyter
-[2021-03-25 04:09:45.816] [sharedprocess] [info] Starting to clean up unused language packs.

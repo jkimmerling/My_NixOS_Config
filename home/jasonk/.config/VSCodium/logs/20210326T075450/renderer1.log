@@ -1,5 +1,0 @@
-[2021-03-26 07:54:51.891] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
-    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6497)
-    at SimpleURLLoaderWrapper.emit (events.js:315:20)
-[2021-03-26 08:24:54.107] [renderer1] [error] getaddrinfo ENOTFOUND default.exp-tas.com: Error: getaddrinfo ENOTFOUND default.exp-tas.com
-	at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
