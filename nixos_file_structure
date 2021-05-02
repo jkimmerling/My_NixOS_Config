@@ -20,5 +20,9 @@ mount -t btrfs -o subvol=@ /dev/nvme1n1p2 /mnt
 mkdir /mnt/boot
 mount /dev/nvme1n1p1 /mnt/boot/
 
+nixos-generate-config --root /mnt
 
+# Add in my configs
+https://github.com/jkimmerling/My_NixOS_Config
 
+nixos-install
