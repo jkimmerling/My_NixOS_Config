@@ -8,7 +8,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./file_system.nix
+      ./file_system/btrfs.nix
       ./hardware-configuration.nix
       ./machines/current_machine.nix
       ./development/includes.nix
