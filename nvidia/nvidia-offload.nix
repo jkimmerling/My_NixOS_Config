@@ -12,9 +12,12 @@ let
   '';
 in
  {
-  environment.systemPackages = [ nvidia-offload ];
+  environment.systemPackages = [ nvidia-offload pkgs.libglvnd];
 
   services.xserver.videoDrivers = [ "nvidia" ];
+  hardware = {
+    opengl.driSupport32Bit = true;
+  };
   hardware.nvidia.prime = {
     offload.enable = true;
 
