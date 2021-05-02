@@ -12,3 +12,30 @@ btrfs subvolume create /mnt/tmp
 
 mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot/
+
+
+
+
+
+
+
+parted /dev/nvme1n1 -- mklabel gpt
+parted /dev/nvme1n1 -- mkpart ESP fat32 1MiB 512MiB
+parted /dev/nvme1n1 -- mkpart primary 512MiB -48GiB
+parted /dev/nvme1n1 -- mkpart primary linux-swap -48GiB 100%
+
+parted /dev/nvme1n1 -- set 1 esp on
+
+mkfs.fat -F 32 -n boot /dev/nvme1n1p1
+mkfs.btrfs /dev/nvme1n1p2
+mkswap /dev/nvme1n1p3
+
+mount /dev/nvme1n1p2 /mnt
+swapon /dev/nvme1n1p3
+btrfs subvolume create /mnt/@
+btrfs subvolume create /mnt/@home
+btrfs subvolume create /mnt/@nix
+
+mkdir /mnt/boot
+mount /dev/nvme1n1p1 /mnt/boot/
+
