@@ -8,15 +8,13 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+      ./file_system.nix
       ./hardware-configuration.nix
       ./machines/current_machine.nix
-      ./wm/LeftWM.nix
       ./development/includes.nix
       ./nvidia/nvidia-offload.nix
-      #./nvidia/nvidia-sync.nix
       ./fonts_themes/fonts.nix
-      #./locale/locale.nix
-      #./xserver/xserver.nix
+
     ];
 
   nixpkgs.config.allowUnfree = true;
