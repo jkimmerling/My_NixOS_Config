@@ -35,7 +35,7 @@
     loader = {
       grub = {
         enable  = true;
-        device = "/dev/nvme0n1"; # or "nodev" for efi only
+        device = "/dev/nvme1n1"; # or "nodev" for efi only
         version = 2;
       };
     };
